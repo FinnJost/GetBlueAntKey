@@ -1,4 +1,4 @@
 on:
     push:
       branches:
-        - main  # make sure you push to this branch!
+        - main  # make sure you push to this branch!!
