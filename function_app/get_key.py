@@ -34,4 +34,4 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     except Exception as e:
         # In case of any errors, log and return a 500 error
         logging.error(f"Error: {str(e)}")
-        return func.HttpResponse("Error accessing Key Vault.", status_code=500)
+        return func.HttpResponse("Error accessing Key Vault.", status_code=501)
