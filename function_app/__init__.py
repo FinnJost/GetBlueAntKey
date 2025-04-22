@@ -4,7 +4,7 @@ from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    logging.info("Function triggered.")
+    logging.info("Function triggered.") # test
     try:
         # Replace with your Key Vault name
         key_vault_url = "https://newblueant.vault.azure.net/"
