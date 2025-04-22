@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "09d5ecc2-6a84-4d85-a155-fb4df03afd1e"
+        },
+        "name": {
+            "value": "FJGetBlueAntKey"
+        },
+        "location": {
+            "value": "Sweden Central"
+        },
+        "storageBlobContainerName": {
+            "value": "app-package-fjgetblueantkey-d7fc4a3"
+        },
+        "storageAccountName": {
+            "value": "kiperfrgstudentspro8361"
+        },
+        "sku": {
+            "value": "FlexConsumption"
+        },
+        "skuCode": {
+            "value": "FC1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "repoUrl": {
+            "value": "https://github.com/FinnJost/GetBlueAntKey"
+        },
+        "branch": {
+            "value": "main"
+        },
+        "oidcUserIdentityName": {
+            "value": "FJGetBlueAntKey-id-a483"
+        },
+        "hostingPlanName": {
+            "value": "ASP-KIPERFRGSTUDENTSPROJECTAI-a1b0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "KIPERF-RG-STUDENTS-PROJECT-AI"
+        },
+        "alwaysOn": {
+            "value": false
+        }
+    }
+}
