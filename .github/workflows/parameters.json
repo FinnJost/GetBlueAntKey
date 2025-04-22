@@ -6,16 +6,16 @@
             "value": "09d5ecc2-6a84-4d85-a155-fb4df03afd1e"
         },
         "name": {
-            "value": "FJGetBlueAntKey"
+            "value": "FJGetBlueAntKey2"
         },
         "location": {
             "value": "Sweden Central"
         },
         "storageBlobContainerName": {
-            "value": "app-package-fjgetblueantkey-d7fc4a3"
+            "value": "app-package-fjgetblueantkey2-ab72772"
         },
         "storageAccountName": {
-            "value": "kiperfrgstudentspro8361"
+            "value": "kiperfrgstudentsprobd95"
         },
         "sku": {
             "value": "FlexConsumption"
@@ -39,10 +39,10 @@
             "value": "main"
         },
         "oidcUserIdentityName": {
-            "value": "FJGetBlueAntKey-id-a483"
+            "value": "FJGetBlueAntKey2-id-b1ef"
         },
         "hostingPlanName": {
-            "value": "ASP-KIPERFRGSTUDENTSPROJECTAI-a1b0"
+            "value": "ASP-KIPERFRGSTUDENTSPROJECTAI-ad7d"
         },
         "serverFarmResourceGroup": {
             "value": "KIPERF-RG-STUDENTS-PROJECT-AI"
